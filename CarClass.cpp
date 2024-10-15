@@ -8,12 +8,14 @@ private:
 	string make;
 	int speed;
 public:
+
 	Car(int ym, string m, int s = 0)
 	{
 		yearModel = ym;
 		make = m;
 		speed = 0;
 	}
+	//Writing member function to set model year of the car
 	void setYearModel(int y)
 	{
 		yearModel = y;
