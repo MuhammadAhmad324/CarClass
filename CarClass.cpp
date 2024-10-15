@@ -34,6 +34,7 @@ public:
 	{
 		return make;
 	}
+
 	void setSpeed(int s)
 	{
 		speed = s;
@@ -42,6 +43,7 @@ public:
 	{
 		return speed;
 	}
+	//Writing a member function of the class which works by increasing speed of the car
 	void accelerate()
 	{
 		speed = speed + 5;
