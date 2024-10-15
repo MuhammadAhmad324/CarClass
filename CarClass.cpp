@@ -20,6 +20,7 @@ public:
 	{
 		yearModel = y;
 	}
+	//Writing a member function/setter function to get the model year of the car
 	int getYearModel() const
 	{
 		return yearModel;
